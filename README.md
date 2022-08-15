@@ -27,5 +27,5 @@
 - Las respuestas del servidor serán en formato JSON. La funcionalidad será probada a través de Postman y del formulario de ingreso.
 
 
-<sup>Formato: link a un repositorio en Github con el proyecto cargado.<sup/><br>
-<sup>Sugerencia: no incluir los node_modules<sup/>
+<sup>Formato: link a un repositorio en Github con el proyecto cargado.<br>
+Sugerencia: no incluir los node_modules<sup/>
