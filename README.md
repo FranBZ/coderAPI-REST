@@ -10,7 +10,7 @@
 ● PUT '/api/productos/:id' -> recibe y actualiza un producto según su id.
 ● DELETE '/api/productos/:id' -> elimina un producto según su id.
 ```
-
+```
 - Cada producto estará representado por un objeto con el siguiente formato:
     {
         title: (nombre del producto),
@@ -28,3 +28,4 @@
 
 <sup>Formato: link a un repositorio en Github con el proyecto cargado.
 Sugerencia: no incluir los node_modules<sup/>
+```
