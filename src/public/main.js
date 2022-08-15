@@ -6,15 +6,14 @@ const guardarProducto = async () => {
     document.getElementById('data').reset()
 
     try {
-
         const data = { nombre, precio, urlImage}
-        const response = await fetch('https://localhost:8080/api/productos/', {
+        const response = await fetch('/api/productos', {
             method: 'POST', 
             body: JSON.stringify(data),
-            headers: { 'Content-Type': 'application/json'}
+            headers: { 'Content-Type': 'application/json'},
         })
         const result = await response.json()
-        console.log(result)
+        return result
 
     } catch (error) {
         let err = new Error(error)
